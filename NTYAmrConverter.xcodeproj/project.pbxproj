@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E07919ED1CC2664500C82D6F /* NTYAmrConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = E07919EB1CC2664500C82D6F /* NTYAmrConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E07919F41CC2677E00C82D6F /* interf_dec.h in Headers */ = {isa = PBXBuildFile; fileRef = E07919F01CC2677E00C82D6F /* interf_dec.h */; };
+		E07919F51CC2677E00C82D6F /* interf_enc.h in Headers */ = {isa = PBXBuildFile; fileRef = E07919F11CC2677E00C82D6F /* interf_enc.h */; };
+		E07919F61CC2677E00C82D6F /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E07919F31CC2677E00C82D6F /* libopencore-amrnb.a */; };
+		E07919FF1CC2686B00C82D6F /* NTYAmrCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = E07919FD1CC2686B00C82D6F /* NTYAmrCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0791A001CC2686B00C82D6F /* NTYAmrCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = E07919FE1CC2686B00C82D6F /* NTYAmrCoder.m */; };
+		E0791A0A1CC26F1F00C82D6F /* NTYAmrConverter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E07919CF1CC265C800C82D6F /* NTYAmrConverter.framework */; };
+		E0791A451CC2854300C82D6F /* NTYAmrCoderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0791A441CC2854300C82D6F /* NTYAmrCoderTests.m */; };
+		E0791A481CC2858100C82D6F /* test.amr in Resources */ = {isa = PBXBuildFile; fileRef = E0791A461CC2858100C82D6F /* test.amr */; };
+		E0791A491CC2858100C82D6F /* test.wav in Resources */ = {isa = PBXBuildFile; fileRef = E0791A471CC2858100C82D6F /* test.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0791A0B1CC26F1F00C82D6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E07919C61CC265C800C82D6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E07919CE1CC265C800C82D6F;
+			remoteInfo = NTYAmrConverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E07919CF1CC265C800C82D6F /* NTYAmrConverter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NTYAmrConverter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E07919EA1CC2664500C82D6F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E07919EB1CC2664500C82D6F /* NTYAmrConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTYAmrConverter.h; sourceTree = "<group>"; };
+		E07919F01CC2677E00C82D6F /* interf_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
+		E07919F11CC2677E00C82D6F /* interf_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
+		E07919F31CC2677E00C82D6F /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		E07919FD1CC2686B00C82D6F /* NTYAmrCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTYAmrCoder.h; sourceTree = "<group>"; };
+		E07919FE1CC2686B00C82D6F /* NTYAmrCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTYAmrCoder.m; sourceTree = "<group>"; };
+		E0791A051CC26F1F00C82D6F /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0791A091CC26F1F00C82D6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0791A441CC2854300C82D6F /* NTYAmrCoderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTYAmrCoderTests.m; sourceTree = "<group>"; };
+		E0791A461CC2858100C82D6F /* test.amr */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.amr; sourceTree = "<group>"; };
+		E0791A471CC2858100C82D6F /* test.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = test.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E07919CB1CC265C800C82D6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E07919F61CC2677E00C82D6F /* libopencore-amrnb.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0791A021CC26F1F00C82D6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0791A0A1CC26F1F00C82D6F /* NTYAmrConverter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E07919C51CC265C800C82D6F = {
+			isa = PBXGroup;
+			children = (
+				E07919E91CC2664500C82D6F /* Source */,
+				E0791A061CC26F1F00C82D6F /* Tests */,
+				E07919D01CC265C800C82D6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E07919D01CC265C800C82D6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E07919CF1CC265C800C82D6F /* NTYAmrConverter.framework */,
+				E0791A051CC26F1F00C82D6F /* Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E07919E91CC2664500C82D6F /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E07919FD1CC2686B00C82D6F /* NTYAmrCoder.h */,
+				E07919FE1CC2686B00C82D6F /* NTYAmrCoder.m */,
+				E07919EE1CC2677E00C82D6F /* opencore-amrnb */,
+				E07919F71CC2678300C82D6F /* Supporting Files */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		E07919EE1CC2677E00C82D6F /* opencore-amrnb */ = {
+			isa = PBXGroup;
+			children = (
+				E07919EF1CC2677E00C82D6F /* include */,
+				E07919F21CC2677E00C82D6F /* lib */,
+			);
+			path = "opencore-amrnb";
+			sourceTree = "<group>";
+		};
+		E07919EF1CC2677E00C82D6F /* include */ = {
+			isa = PBXGroup;
+			children = (
+				E07919F01CC2677E00C82D6F /* interf_dec.h */,
+				E07919F11CC2677E00C82D6F /* interf_enc.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		E07919F21CC2677E00C82D6F /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				E07919F31CC2677E00C82D6F /* libopencore-amrnb.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		E07919F71CC2678300C82D6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E07919EA1CC2664500C82D6F /* Info.plist */,
+				E07919EB1CC2664500C82D6F /* NTYAmrConverter.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0791A061CC26F1F00C82D6F /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E0791A461CC2858100C82D6F /* test.amr */,
+				E0791A471CC2858100C82D6F /* test.wav */,
+				E0791A441CC2854300C82D6F /* NTYAmrCoderTests.m */,
+				E0791A091CC26F1F00C82D6F /* Info.plist */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E07919CC1CC265C800C82D6F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E07919FF1CC2686B00C82D6F /* NTYAmrCoder.h in Headers */,
+				E07919ED1CC2664500C82D6F /* NTYAmrConverter.h in Headers */,
+				E07919F51CC2677E00C82D6F /* interf_enc.h in Headers */,
+				E07919F41CC2677E00C82D6F /* interf_dec.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E07919CE1CC265C800C82D6F /* NTYAmrConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E07919E31CC265C800C82D6F /* Build configuration list for PBXNativeTarget "NTYAmrConverter" */;
+			buildPhases = (
+				E07919CA1CC265C800C82D6F /* Sources */,
+				E07919CB1CC265C800C82D6F /* Frameworks */,
+				E07919CC1CC265C800C82D6F /* Headers */,
+				E07919CD1CC265C800C82D6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NTYAmrConverter;
+			productName = NTYAmrConverter;
+			productReference = E07919CF1CC265C800C82D6F /* NTYAmrConverter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0791A041CC26F1F00C82D6F /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0791A0D1CC26F1F00C82D6F /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				E0791A011CC26F1F00C82D6F /* Sources */,
+				E0791A021CC26F1F00C82D6F /* Frameworks */,
+				E0791A031CC26F1F00C82D6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0791A0C1CC26F1F00C82D6F /* PBXTargetDependency */,
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = E0791A051CC26F1F00C82D6F /* Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E07919C61CC265C800C82D6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Chainsea;
+				TargetAttributes = {
+					E07919CE1CC265C800C82D6F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					E0791A041CC26F1F00C82D6F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = E07919C91CC265C800C82D6F /* Build configuration list for PBXProject "NTYAmrConverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E07919C51CC265C800C82D6F;
+			productRefGroup = E07919D01CC265C800C82D6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E07919CE1CC265C800C82D6F /* NTYAmrConverter */,
+				E0791A041CC26F1F00C82D6F /* Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E07919CD1CC265C800C82D6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0791A031CC26F1F00C82D6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0791A491CC2858100C82D6F /* test.wav in Resources */,
+				E0791A481CC2858100C82D6F /* test.amr in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E07919CA1CC265C800C82D6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0791A001CC2686B00C82D6F /* NTYAmrCoder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0791A011CC26F1F00C82D6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0791A451CC2854300C82D6F /* NTYAmrCoderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0791A0C1CC26F1F00C82D6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E07919CE1CC265C800C82D6F /* NTYAmrConverter */;
+			targetProxy = E0791A0B1CC26F1F00C82D6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E07919E11CC265C800C82D6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E07919E21CC265C800C82D6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E07919E41CC265C800C82D6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Source/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Source/opencore-amrnb/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.chainsea.NTYAmrConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E07919E51CC265C800C82D6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Source/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Source/opencore-amrnb/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.chainsea.NTYAmrConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E0791A0E1CC26F1F00C82D6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.chainsea.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E0791A0F1CC26F1F00C82D6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.chainsea.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E07919C91CC265C800C82D6F /* Build configuration list for PBXProject "NTYAmrConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E07919E11CC265C800C82D6F /* Debug */,
+				E07919E21CC265C800C82D6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E07919E31CC265C800C82D6F /* Build configuration list for PBXNativeTarget "NTYAmrConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E07919E41CC265C800C82D6F /* Debug */,
+				E07919E51CC265C800C82D6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0791A0D1CC26F1F00C82D6F /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0791A0E1CC26F1F00C82D6F /* Debug */,
+				E0791A0F1CC26F1F00C82D6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E07919C61CC265C800C82D6F /* Project object */;
+}

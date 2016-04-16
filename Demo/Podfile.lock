@@ -1,0 +1,14 @@
+PODS:
+  - NTYAmrConverter (0.1.0)
+
+DEPENDENCIES:
+  - NTYAmrConverter (from `../`)
+
+EXTERNAL SOURCES:
+  NTYAmrConverter:
+    :path: ../
+
+SPEC CHECKSUMS:
+  NTYAmrConverter: 2614e739e6baf16ef0fb9a89549e3fff2a0c7e9e
+
+COCOAPODS: 0.39.0
