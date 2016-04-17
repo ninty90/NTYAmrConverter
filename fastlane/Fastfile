@@ -38,7 +38,8 @@ platform :ios do
       ensure_git_status_clean
       
       test_all_schemes
-      carthage_lint
+
+      lint
       
       sync_build_number_to_git
       increment_version_number(version_number: target_version)
