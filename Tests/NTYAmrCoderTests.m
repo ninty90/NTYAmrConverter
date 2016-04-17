@@ -26,12 +26,9 @@
     XCTAssertNotNil(wavPath);
     XCTAssertNotNil(amrPath);
     
-    [NTYAmrCoder encodeWavFile:wavPath toAmrFile:amrPath];
+    BOOL result = [NTYAmrCoder encodeWavFile:wavPath toAmrFile:amrPath];
     
-    NSData *data = [NSData dataWithContentsOfFile:amrPath];
-    
-    XCTAssertNotNil(data);
-    XCTAssert(data.length > 0);
+    XCTAssert(result == YES);
 }
 
 - (void)testAmrDecode {
@@ -44,12 +41,9 @@
     XCTAssertNotNil(wavPath);
     XCTAssertNotNil(amrPath);
     
-    [NTYAmrCoder decodeAmrFile:amrPath toWavFile:wavPath];
+    BOOL result = [NTYAmrCoder decodeAmrFile:amrPath toWavFile:wavPath];
     
-    NSData *data = [NSData dataWithContentsOfFile:wavPath];
-    
-    XCTAssertNotNil(data);
-    XCTAssert(data.length > 0);
+    XCTAssert(result == YES);
 }
 
 - (void)testRecorderSettings {
