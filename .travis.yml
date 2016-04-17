@@ -13,7 +13,8 @@ script:
 - |
     if [ "$TEST_TYPE" = iOS ]; then
       set -o pipefail
-      xcodebuild clean test -project NTYAmrConverter.xcodeproj -scheme NTYAmrConverter -destination "platform=iOS Simulator,name=iPhone 4s" -destination "platform=iOS Simulator,name=iPhone 6 Plus" -enableCodeCoverage YES | xcpretty
+      open -b com.apple.iphonesimulator
+      xcodebuild clean build test -project NTYAmrConverter.xcodeproj -scheme NTYAmrConverter -destination "platform=iOS Simulator,name=iPhone 4s" -destination "platform=iOS Simulator,name=iPhone 6 Plus" -enableCodeCoverage YES | xcpretty
     fi
 after_success:
 - |
