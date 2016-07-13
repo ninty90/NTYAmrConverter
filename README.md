@@ -56,8 +56,8 @@ NTYAmrCoder.decodeAmrFile(amrPath, toWavFile: convertedWavPath)
 
 You can find the full API documentation at [CocoaDocs](http://cocoadocs.org/docsets/NTYAmrConverter/).
 
-You can also see the Demo, 
-to run the Demo, use `pod install` first.
+## Related Project
+[AMR-for-iOS7](https://github.com/ninty90/AMR-for-iOS7)
 
 ## License
 
